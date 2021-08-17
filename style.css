@@ -1,0 +1,148 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin:0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-size: 16px;
+    line-height: 2;
+    margin: 10px;
+    text-align: justify;
+}
+h1,h2,h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 42px;
+    text-align: left;
+}
+
+/*utilities*/
+.btn{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    color: rgb(247, 215, 35);
+    font-weight: 700;
+}
+.center-text{
+    text-align:center
+}
+
+.container{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+
+header.site-header{
+    height:50vh;
+    background-color: rgb(247, 215, 35);
+    text-align: center;
+    margin-top: 60px;
+}
+h1.title{
+    color:black;
+    font-size:45px;
+    
+}
+header.site-header h1{
+    color:black;
+    font-size: 45px;
+    padding-top: 30px;
+}
+header.site-header h2{
+    font-size:35px;
+    margin-top: 30px;
+}
+
+header.site-header p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*menu*/
+nav.menu{
+    background-color: black;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 20px;
+    overflow: hidden;
+}
+nav.menu a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav.menu a:hover{
+    color:rgb(247, 215, 35);
+    font-weight: 700;
+}
+
+/*footer*/
+footer.site-footer{
+    border-top: 1px solid lightgray;
+
+}
+footer.site-footer p{
+    text-align: center;
+    color: rgb(134, 134, 134);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/*project*/
+.project-container{
+    display:flex;
+
+}
+.project-container h5{
+    font-size: 40px;
+}
+
+.project-container ul li{
+    font-size: 20px;
+    font-weight: 300;
+}
+.project-container img{
+    width: 500px;
+    margin-right: 20px;
+}
+.project-container a{
+    display: block;
+    width:80px;
+    margin:20px auto 10px auto;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.project-container a:hover{
+    font-weight:700;
+}
